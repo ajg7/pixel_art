@@ -1,9 +1,12 @@
 import React from "react";
+import DragonDraw from "./containers/DragonDraw";
 
-export const App = () => {
+const App = () => {
   return (
-    <>
-      <h1>Hello World!</h1>
-    </>
+    <div>
+      <DragonDraw />
+    </div>
   );
 };
+
+export default App;
